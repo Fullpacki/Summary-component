@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;800&display=swap');
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color: #ecf2ff;
+    min-height: 100vh;
+
+    @media (min-width: 1280px) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* Ajoutez ici des styles spécifiques pour les écrans de 1280px ou plus */
+        }
+}
+
